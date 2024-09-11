@@ -122,7 +122,7 @@ class WordQuizApp(QMainWindow, Ui_WordQuizApp):
         self.hide_loader()
 
     def show_loader(self):
-        self.questionLabel.setText("Yeni soruya üretiliyor...")
+        self.questionLabel.setText("Yeni soru üretiliyor...")
         self.optionButton1.setVisible(False)
         self.optionButton2.setVisible(False)
         self.optionButton3.setVisible(False)
