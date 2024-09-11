@@ -1,6 +1,8 @@
 
 # Kelime Çeviri Oyunu
 
+ Python becerilerimi geliştirmek için tasarldığım inglizce türkçe kelime oyunu. 
+
 **Kelime Çeviri Oyunu**, rastgele İngilizce kelimeleri Türkçeye çevirerek dil becerilerinizi test edebileceğiniz eğlenceli  bir oyun! 🚀
 
 
