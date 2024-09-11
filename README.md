@@ -21,6 +21,12 @@
 - `googletrans` kütüphanesi
 - `requests` kütüphanesi
 
+
+### Kurulumsuz Çalıştırma  
+
+Dist/word_quiz.exe çalıştırmanız yeterli
+
+
 ### Kurulum Adımları
 
 1. Projeyi klonlayın:
@@ -40,7 +46,6 @@
    ```
 
 
-Yada direk dist dizini altından çalıştırmanız mümkün.
 
 ---
 
