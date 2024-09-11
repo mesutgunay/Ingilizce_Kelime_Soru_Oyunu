@@ -1,5 +1,5 @@
 
-# 🎮 Kelime Çeviri Oyunu
+# Kelime Çeviri Oyunu
 
 **Kelime Çeviri Oyunu**, rastgele İngilizce kelimeleri Türkçeye çevirerek dil becerilerinizi test edebileceğiniz eğlenceli  bir oyun! 🚀
 
