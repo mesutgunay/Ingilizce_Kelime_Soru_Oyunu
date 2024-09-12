@@ -22,18 +22,10 @@ tray_icon = None
 
 # 4 adet rastgele İngilizce kelime üret
 def get_random_words(num_words=4):
-    words = []
-    while len(words) < num_words:
-        num_question_marks = random.randint(3, 18)
-        sp_param = '?' * num_question_marks
-        url = f"https://api.datamuse.com/words?sp={sp_param}&md=f&max=150"
-        response = requests.get(url)
-        word_list = response.json()
-        if word_list:
-            word = random.choice(word_list)['word']
-            if word not in words:
-                words.append(word)
-    return words
+    url = f"https://random-word-api.herokuapp.com/word?number={num_words}"
+    response = requests.get(url)
+    word_list = response.json()
+    return word_list
 
 # Şıkları üret ve Türkçe çeviriyi seç
 def create_quiz():
